@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="“UTF-8”" />
+		<meta
+			name="“viewport”"
+			content="“width"
+			="device-width,"
+			initial-scale="1.0”"
+		/>
+		<meta http-equiv="“X-UA-Compatible”" content="“ie" ="edge”" />
+		<link
+			rel="stylesheet"
+			href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+			integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+			crossorigin="anonymous"
+		/>
+		<link type="text/css" rel="stylesheet" href="styles.css" />
+		<script>
+			function scrollToElement(id) {
+				const element = document.getElementById(id);
+				element.scrollIntoView();
+			}
+
+			function describe(id) {
+				const element = document.getElementById(id);
+				alert(element.title);
+			}
+		</script>
+		<title>Buying flowers, back soon.</title>
+	</head>
+	<body>
+		<div class="container-fluid" id="wrapper">
+			<div class="row" id="title">
+				<div class="col-6 page" onclick="scrollToElement('intro')">
+					<h1>Virginia Woolf: a Misremembered Icon</h1>
+					<h3>An interactive essay by Finley Owen</h3>
+					<b>How to read this essay</b>
+					<ul>
+						<li>
+							Tap/click anywhere (except on images) to go to the
+							next page, or scroll around the content like you
+							would any other website.
+						</li>
+						<li>
+							Hover your mouse over images or text in
+							<b
+								id="example"
+								onclick="describe('example')"
+								title="Example description of the bold text."
+								>bold</b
+							>
+							to see a description of the image or text.
+						</li>
+						<li>
+							You may also tap/click on the text or image to see a
+							description (however, if you click on text, the page
+							will also turn).
+						</li>
+						<li>
+							For the best experience, view on a larger screen
+							(like a laptop or desktop). If you're on a smaller
+							device, choose to view the page in full screen.
+						</li>
+					</ul>
+				</div>
+				<div class="col align-self-end img-container">
+					<img
+						id="img-1"
+						onclick="describe('img-1')"
+						title="Clarissa buying flowers while Mrs. Dalloway says she&#39;ll buy the flowers herself, next to a vase of flowers."
+						src="img-1.jpg"
+						style="align-self: flex-end"
+					/>
+				</div>
+			</div>
+
+			<div class="row" id="intro">
+				<div class="col align-self-start img-container">
+					<img
+						id="img-2"
+						onclick="describe('img-2')"
+						title="Profile photo of Virginia Woolf (Auden 1954)."
+						src="img-2.jpg"
+						style="align-self: flex-start"
+					/>
+				</div>
+				<div class="col page" onclick="scrollToElement('part-1')">
+					<div class="card">
+						<div class="card-body">
+							<h1 class="card-title">Introduction</h1>
+							<hr />
+							<p>
+								<i>Mrs Dalloway</i> is one of the most
+								well-known and meaningful works by Virginia
+								Woolf, a 20th century author who wrote
+								literature about feminism, mental illness,
+								sexuality, and life in general. She is commonly
+								remembered for her experimentation with and
+								popularisation of the
+								<b
+									id="stream-of-consciousness"
+									onclick="describe('stream-of-consciousness')"
+									title="A writing style where the characters’ thoughts and emotions are intertwined with each other, and with other concrete events in the story, to fabricate a multidimensional world in which the reader can understand multiple perspectives of a story."
+									>stream-of-consciousness</b
+								>
+								writing style, which shines through particularly
+								in
+								<i>Mrs. Dalloway</i> and is in fact a very
+								important part of understanding the effect of
+								the novel.
+							</p>
+							<p>
+								&ldquo;The Hours&rdquo; is a 2002 American film
+								directed by Stephen Daldry based on
+								<i>The Hours</i>, a 1998 novel by Michael
+								Cunningham. It follows three plotlines over
+								three generations, one of which is a
+								representation of the life of Virginia Woolf
+								herself; it includes her own husband, Leonard;
+								and her own sister, Vanessa. Another plotline is
+								a
+								<b
+									id="loose-representation"
+									onclick="describe('loose-representation')"
+									title="The first names of the characters in this group provide us with guidelines about which character from the novel they represent."
+									>loose representation</b
+								>
+								of the story in Mrs. Dalloway.
+							</p>
+							<p>
+								This essay will attempt to compare the two texts
+								(as well as some others) in terms of what they
+								help us understand about Woolf&#39;s life, and
+								what they help us understand about each other.
+								We will look at how the connections, contrasts,
+								and parallels of the two texts influence the way
+								we perceive either one; and advance an overall
+								interpretation on the extent to which each
+								amplify and/or diminish Woolf&#39;s exploration
+								of the meaning of happiness, which we will learn
+								about by examining biographical facts about her
+								life, as well as other works by her.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div
+				class="row"
+				id="part-1"
+				onclick="scrollToElement('social-life')"
+			>
+				<div class="col heading-page">
+					<h1>Part 1: Exploration of Happiness</h1>
+					<i>
+						&ldquo;Virginia Woolf was great fun at parties. I want
+						to tell you that up front, because Woolf, who died 70
+						years ago this year, is so often portrayed as the Dark
+						Lady of English letters, all glowery and sad, looking
+						balefully on from a crepuscular corner of literary
+						history with a stone lodged in her pocket.&rdquo;
+					</i>
+					<p>
+						&mdash;Michael Cunningham, author of
+						<i>The Hours</i> (Cunningham 2011)
+					</p>
+				</div>
+			</div>
+
+			<div class="row" id="social-life">
+				<div class="col page" onclick="scrollToElement('other-works')">
+					<h2>Social life</h2>
+					<p>
+						Biographical accounts of Woolf&#39;s life (Auden 1954,
+						Heitman 2015) provide descriptions of her as rebellious
+						and non-conventional, with a passionate social life and
+						centre-left political opinions. She was a member of the
+						Bloomsbury group which consisted of authors, visual
+						artists, designers, art critics and other creative
+						figures. Another member was Vanessa Bell, Woolf&#39;s
+						sister, who plays an important part in the film ‘The
+						Hours’ which will be discussed later. The group famously
+						valued personal relationships over politics and power.
+						They were not artistically collaborative, nor did their
+						art contain common themes that can be associated with
+						membership of the group. It seems, in fact, that the
+						only things they had in common were their Cambridge
+						educations, upper-middle-class social statuses, and
+						their friendship based on liberalism and art (Tate,
+						n.d.). Coincidentally, my own mother was born near
+						Bloomsbury, about three minutes by car from where the
+						Woolfs lived (though years after their deaths). This
+						supports my hypothesis that had Virginia been alive
+						today, we&#39;d definitely be pals.
+					</p>
+				</div>
+				<div class="col-auto img-container">
+					<img
+						id="img-3"
+						onclick="describe('img-3')"
+						title="Group photo of the Bloomsbury group. Woolf may or may not be the one on the far right (Tate, n.d.)."
+						src="img-3.jpg"
+					/>
+				</div>
+			</div>
+
+			<div class="row" id="other-works">
+				<div class="col-auto img-container">
+					<img src="img-4.jpg" />
+				</div>
+				<div class="col page" onclick="scrollToElement('the-darkness')">
+					<h2>Relationships and other works</h2>
+					<p>
+						Amoung her popular works are <i>The Waves</i>, which is
+						about a group of six close friends and explores ideas of
+						time and separation in non-conventional ways;
+						<i>A Room of One&#39;s Own</i>, an extended feminist
+						essay about the way women are restricted socially; and
+						<i>Orlando: A Biography</i>, which follows an aspiring
+						poet who lives for hundreds of years and during which
+						time undergoes a magical and unexplainable change of
+						sex. <br />
+						The latter is described by Jenette Winterson for The
+						Guardian as a &ldquo;trans triumph&rdquo; and can be
+						seen as a piece of queer activism, since it is one of
+						the earliest literary works to document a character who
+						changes sex and has relationships with men and women at
+						various points in their lifetime. It&#39;s dedicated to
+						Woolf&#39;s own long-term same-sex partner, Vita
+						Sackville-West, and Woolf&#39;s diary describes the
+						novel as &ldquo;A biography beginning in the year 1500
+						and continuing to the present day, called Orlando. Vita;
+						only with a change about from one sex to the
+						other.&rdquo; (Winterson 2018).
+						<a href="orlando-a-biography.html">Read more</a>
+					</p>
+				</div>
+			</div>
+
+			<div class="row" id="the-darkness">
+				<div
+					class="col page"
+					style="
+						padding-right: 20vw;
+						padding-left: 20vw;
+						font-family: 'Times New Roman', Times, serif;
+					"
+					onclick="scrollToElement('part-2')"
+				>
+					<h2>The darnkess</h2>
+					<p>
+						So far, we&#39;ve focused on the brighter aspects of
+						Woolf&#39;s life. However, it wasn&#39;t all fun and
+						games for Virginia or her husband, Leonard. Woolf
+						experienced severe mental health issues for almost her
+						whole life. She had her first nervous breakdown at
+						fifteen years old, following the deaths of her mother
+						and half-sister. She continued to be prone to
+						manic/depressive episodes, and &ldquo;lived in fear of
+						her next mental breakdown&rdquo;. Leonard noticed that
+						&ldquo;while Virginia was writing a novel, she was sane
+						and in the manic period of her manic-depression.
+						However, soon after her novel was complete, she became
+						depressed&rdquo; (Holm 2018). She also experienced
+						forced institutionalisation multiple times and attempted
+						suicide twice (Klopfenstein 2021).
+					</p>
+					<p>
+						But the story gets darker. New and disturbing details
+						have emerged quite recently about traumatic experiences
+						from Woolf&#39;s childhood. Specifically, that she was
+						sexually violated at a young age by her own
+						half-brothers. It occurred only once before the death of
+						her father, but then continuously for five years
+						afterwards. According to Gillian Gill, author of
+						<i>Virginia Woolf and the Women Who Shaped Her World</i
+						>, &ldquo;By her own account, it had a lifelong effect
+						on her and we see this when she&#39;s in her 40s and she
+						writes about it in her memoirs in 1939&rdquo; (Haynes
+						2018). Gill also says that the claims were extremely
+						controversial when they were uncovered by the public
+						eye, with skeptics saying her &lsquo;madness&rsquo;
+						caused her to make the claims up.
+					</p>
+					<p>
+						Then, in 1941, Woolf wrote a letter to her husband
+						saying: &ldquo;Dearest, I feel certain I am going mad
+						again. I feel we can&#39;t go through another of those
+						terrible times. And I shan&#39;t recover this
+						time.&rdquo; This was the beginning of her suicide note.
+						Woolf drowned herself in 1941, with stones in her
+						pockets and no witnesses.
+					</p>
+					<h2>The conclusion</h2>
+					<p>
+						We can trace patterns in Woolf&#39;s life and thereby
+						make predictions about what her exploration of happiness
+						could have involved. Most definitively, we can say that
+						Woolf explored happiness through her writing, or at
+						least that writing was something that made her happy.
+						I&#39;d argue that deviancy in general was another thing
+						that brought her joy. We observe deviancy in her social
+						circles, novels, and relationships; all of which were
+						known sources of happiness for her. I&#39;d also say
+						that devotion and love/friendship were values of hers
+						because of what we know about the Bloomsbury group as
+						well as her personal relationships (i.e., Leonard and
+						Vita).
+					</p>
+				</div>
+			</div>
+
+			<div
+				class="row"
+				id="part-2"
+				onclick="scrollToElement('mrs-dalloway-2')"
+			>
+				<div class="col page">
+					<h1>Part 2: <i>Mrs Dalloway</i></h1>
+					<i
+						>&ldquo;Men may congratulate themselves for writing
+						truly and passionately about the movements of nations;
+						they may consider war and the search for God to be great
+						literature&#39;s only subjects; but if men&#39;s
+						standing in the world could be toppled by an ill-advised
+						choice of hat, English literature would be dramatically
+						changed.&rdquo;
+					</i>
+					<p>
+						&#151;Michael Cunningham in <i>The Hours</i> (Cunningham
+						1998).
+					</p>
+					<hr style="color: cadetblue; height: 10px" />
+					<p>
+						In <i>Mrs Dalloway</i>, Woolf uses fictitious characters
+						to express her actual thoughts on many aspects of life
+						and society. For this reason, it helps to have some
+						knowledge of Woolf&#39;s life to truly understand the
+						events of the novel and their significance.
+					</p>
+				</div>
+				<div class="col-auto img-container">
+					<img
+						src="img-5.jpg"
+						id="img-5"
+						onclick="describe('image-5')"
+						title="The cover of the novel"
+					/>
+				</div>
+			</div>
+
+			<div
+				id="mrs-dalloway-2"
+				class="row"
+				style="font-family: 'Times New Roman', Times, serif"
+			>
+				<div class="col-6 page">
+					<p>
+						For example, the climax of the novel is the death of
+						ex-war veteran Septimus Warren-Smith by suicide. This
+						event is inherently heartbreaking, especially when we
+						consider the way Woolf herself passed away, and the way
+						she felt for a lot of her life. But I believe its
+						importance lies in its timing; why, of all times, does
+						he take his life the moment Dr. Holmes arrives to take
+						him somewhere where he might recover from his illness?
+						The best explanation seems to be that Woolf is making a
+						commentary on the mental health institutionalisation and
+						forced treatment she experienced herself. Luke Holm
+						wrote for Owlcation: &ldquo;The doctors who treated her
+						gave her anxiety. The treatments they prescribed for her
+						were unsuccessful and torturous. . . By the end of
+						Virginia’s treatments, she could no longer cope with her
+						normal life.&rdquo; (Holm 2018). Knowing this, Mrs
+						Dalloway can be compared to Sylvia Plath&#39;s
+						<b
+							id="the-bell-jar"
+							onclick="describe('the-bell-jar')"
+							title="The Bell Jar is about a young woman who has a nervous breakdown and is sent to multiple mental health recovery centers. The main character, Esther, documents things she believes are wrong with the way she&#39;s treated in the mental assylum including her experiences with shock treatment, the price of psychotherapists and restrictions in the hospital."
+							><i>The Bell Jar</i></b
+						>, which sends a rather different (though still bleak
+						and disturbing) message about forced
+						institutionalisation for people experiencing mental
+						illness.
+					</p>
+					<p>
+						The repetition with variation of the phrase &ldquo;down
+						into the flames&rdquo; in excerpts about Septimus&#39;
+						sense of impending doom could be read in contrast with
+						the repetition of the poem:
+						<b
+							id="fear-no-more"
+							onclick="describe('fear-no-more')"
+							title="The poem is written by William Shakespeare and appears in his play: Cymbeline"
+							>&ldquo;Fear no more the heat o&#39; the
+							sun&rdquo;</b
+						>
+						in <i>Mrs Dalloway</i>. The poem is about triumph and
+						bravery, two things that Septimus seems to be sapped dry
+						of by the time the novel is set. However, the poem is
+						also about not fearing death; “The scepter, learning,
+						physic, must / All follow this, and come to dust.” This
+						is a parallel theme in Septimus’ last moments, as shown
+						by the line “Fear no more, says the heart in the body;
+						fear no more. He was not afraid” (Woolf 1925).
+					</p>
+					<p>
+						Parallels can also be drawn between Clarissa Dalloway
+						and Woolf herself. Clarissa seems to experience similar
+						intrusive thoughts as Virginia is described to have
+						experienced; &ldquo;She had a perpetual sense, as she
+						watched the taxi cabs, of being out, out, far out to sea
+						and alone; she always had the feeling that it was very,
+						very dangerous to live even one day&rdquo; (Woolf 1925).
+						Clarissa is also described early in the novel by Scrope
+						Purvis, a minor character, as having &ldquo;grown very
+						white since her illness&rdquo;. Though her illness is
+						never elaborated upon, we can read between the lines
+						here and speculate that Clarissa may have suffered a
+						nervous breakdown, much like those that Woolf suffered.
+					</p>
+				</div>
+				<div class="col-6 page" onclick="scrollToElement('part-3')">
+					<p>
+						Clarissa also cares a lot about her parties. This could
+						be interpreted as an unimportant part of the novel (who
+						doesn&#39;t care about their parties?) but I don&#39;t
+						believe it to be so. The point is made so many times
+						throughout the novel (&ldquo;it was a very odd thing how
+						much Clarissa minded about her parties, [Peter]
+						thought&rdquo;), that I&#39;d argue that Clarissa cares
+						about her parties in a similar way Woolf cared about
+						writing. I think the parties are a sacred space for
+						Clarissa, who is confined to the
+						<b
+							id="domestic-sphere"
+							onclick="describe('domestic-sphere')"
+							title="The &lsquo;separate sphere&rsquo; model of gender inequality is the idea that women inhabit the domestic sphere while men inhabit the public sphere. The domestic sphere refers to the realm of cooking, cleaning, and providing; while the public sphere refers to that of politics, intellectualism, and war."
+							>domestic sphere</b
+						>
+						by her position as an upper-middle class woman in the
+						early 20th century. The parties are her time to shine in
+						front of the public sphere and feel important by
+						receiving praise and acceptance from seemingly important
+						and influential figures.
+					</p>
+					<p>
+						Another way Woolf expresses her happiness and
+						individuality in the novel is through her political
+						opinions, which were probably influenced by her
+						association with the Bloomsbury group. The novel is
+						commonly known for its progressiveness in that the plot
+						centers around events that take place within the
+						domestic sphere. This focus takes attention away from
+						politics and power, which were the ideological enemies
+						of the Bloomsbury group. This is evident when Mrs.
+						Walker, the cook of the Dalloways&#39; house, expresses
+						that the Prime Minister coming to dinner &ldquo;made no
+						difference at this hour of the night… among the plates,
+						saucepans, cullenders, frying-pans&rdquo; (Woolf 1925).
+						This is just one example of Woolf uplifting and
+						empowering her characters who abide in the domestic
+						sphere, in this case for a career, while simultaneously
+						disparaging the importance of the public sphere, of
+						which the Prime Minister is symbolic.
+					</p>
+					<p>
+						Woolf also makes political commentary through Septimus,
+						who raises ideas about life and death in a capitalist
+						and democratic society. &ldquo;The fallen, he said, they
+						tear to pieces.&rdquo; This is interesting because
+						(though he&#39;s talking about someone who laughed at
+						his writing), it&#39;s a dominant criticism made of
+						<b
+							id="malthusian-philosophy"
+							onclick="describe('malthusian-philosophy')"
+							title="This school of thought, when applied, says the best way to distribute resources ‘practically’ to humans, and to prevent the human population passing an imagined ‘crisis point’, is to cut of healthcare and essential services to those who prone to ‘falling through the cracks’ of society; essentially the poor, the shellshocked, and the minority population."
+							>Malthusian philosophy</b
+						>, which is deeply entrenched in our social and economic
+						systems and was gaining popularity at the time Mrs
+						Dalloway was written. While it&#39;s not likely that
+						Woolf meant this directly as a philosophical criticism,
+						I think she chose her words carefully when speaking of
+						Septimus&#39; illness, and it may be true that some of
+						Septimus&#39; revelations and delusions are based on
+						things that she thought or experienced herself. So, the
+						relevance of Malthusian philosophy to
+						<i>Mrs Dalloway</i> lies not in its political imact, but
+						its ideology, which is likely to have a lot in common
+						with the ideological stigma around mental illness that
+						Woolf and Septimus alike experienced.
+					</p>
+				</div>
+			</div>
+
+			<div class="row" id="part-3">
+				<div
+					class="heading-page"
+					onclick="scrollToElement('the-hours')"
+				>
+					<h1>Part 3: 'The Hours'</h1>
+				</div>
+			</div>
+
+			<div class="row" id="the-hours">
+				<div class="col page" onclick="scrollToElement('the-hours-2')">
+					<p>
+						Generally, I think a film is less likely to portray a
+						character&#39;s life in a positive light if it begins
+						with a scene of the character taking their own life.
+						Furthermore, I think a film is less likely to provide an
+						accurate representation of a true story if it begins
+						with a scene that was not witnessed by anyone.
+						&lsquo;The Hours&rsquo; is no exception. It begins with
+						a scene of Woolf&#39;s suicide (played by Nicole Kidman)
+						and abounds in misrepresentation and misinformation
+						about her life and work.
+					</p>
+					<p>
+						One example is the way it depicts the relationship
+						between Virginia and Leonard. In the film, Leonard is
+						often shown trying to &lsquo;tame&rsquo; Virginia. He
+						feels he must force her to eat lunch, allow her to go
+						for a walk, he even seems hesitant to let Virginia
+						write, when we know the real Leonard encouraged her to
+						write, because that&#39;s what made her happy.
+					</p>
+					<p>
+						At Richmond Train Station, when Leonard says to
+						Virginia, &ldquo;We set up the printing press. . . so
+						that you might have a ready source of absorption and a
+						remedy,&rdquo; he makes a clear distinction between the
+						&lsquo;we&rsquo; who set up the printing press, and the
+						&lsquo;you&rsquo; who needs a ready source of absorption
+						and a remedy. But according to Duncan Heyes for the
+						British Library, &ldquo;There were a number of reasons
+						why the Woolfs were keen to start printing. In his
+						autobiography, Leonard stated that he wanted a
+						distraction for Virginia to give her a break from the
+						intellectual effort of writing. . . Despite both Leonard
+						and Virginia&#39;s enthusiasm for printing, the Hogarth
+						Press was only ever meant to be a hobby; it was not
+						intended to grow into a full-time publishing
+						enterprise&rdquo; (Heyes 2016). While this is evidence
+						that the printing press served as a &ldquo;ready source
+						of absorption&rdquo; for Virginia, there seems to be no
+						separation of the sort that Leonard in the film makes
+						(&ldquo;the Woolfs were keen to start printing&rdquo;,
+						&ldquo;both Leonard and Virginia&rdquo;). This shows
+						that the film portrays their relationship as controlling
+						and power-orientated, but the evidence that their
+						relationship was really like that is lacking. In fact,
+						we could speak of evidence to the contrary, such as
+						their association with the Bloomsbury group who opposed
+						ideas of power in general, and the same-sex affair that
+						Virginia had while happily married to Leonard.
+					</p>
+					<p>
+						The kiss between Woolf and Vanessa also feels like an
+						unnecessary and frankly offensive lie about Woolf&#39;s
+						life. Woolf was not known to ever kiss her sister, nor
+						is there any evidence that she wanted to or would have
+						done had she the chance. In
+						<i>The Hours</i> (on which &lsquo;The Hours&ldquo; is
+						based), the event is described as &ldquo;an innocent
+						kiss, innocent enough, but just now, in this kitchen,
+						behind Nelly&#39;s back, it feels like the most
+						delicious and forbidden of pleasures. Vanessa returns
+						the kiss.&rdquo; (Cunningham 1998) This, I have a no
+						problem with, mainly because it doesn&#39;t portray
+						Woolf as an incestuous pervert. In the film, however,
+						the kiss feels completely unwarranted, occurs in front
+						of Nessa&#39;s youngest child, and makes Nessa quite
+						uncomfortable. It&#39;s there to reinforce how far
+						Woolf&#39;s mindset and actions have crossed the
+						socially acceptable line, and I would argue that scenes
+						like this fed into the popular opinion that was held
+						until quite recently that non-heterosexual identities
+						are intrinsically inferior and potentially unacceptable.
+					</p>
+				</div>
+				<div class="col-auto img-container">
+					<img
+						src="img-6.jpg"
+						id="nicole-kidman-as-woolf"
+						onclick="describe('nicole-kidman-as-woolf')"
+						title="Nicole Kidman as Virginia Woolf in 'The Hours'."
+					/>
+				</div>
+			</div>
+
+			<div
+				class="row"
+				id="the-hours-2"
+				onclick="scrollToElement('conclusion')"
+			>
+				<div class="col-auto img-container">
+					<img
+						src="img-7.jpg"
+						id="clarissa-buying-flowers"
+						onclick="describe('clarissa-buying-flowers')"
+						title="Clarissa Vaughan (Meryl Streep) going to buy the flowers herself."
+					/>
+				</div>
+				<div class="col page">
+					<div class="card">
+						<div class="card-body">
+							<p>
+								Besides the inaccuracies of the Virginia Woolf
+								character, however, the film does deal with some
+								serious and complicated themes, and parallels
+								can be drawn between it and <i>Mrs Dalloway</i>.
+								For example, there&#39;s the death of Richard,
+								who dies by suicide the same way Septimus does.
+								His death is also the climax of the story, and
+								it too occurs at strange timing (specifically,
+								when Clarissa arrives to help prepare him for
+								the party). However, I feel strongly that the
+								meaning of Septimus&#39; death in Mrs Dalloway
+								was exactly that, the timing. As Is&#39;ve said,
+								it was an important and meaningful commentary
+								about the like of Dr. Holmes and forced mental
+								health treatment. In the film, however, there is
+								no suggestion of any commentary, no meaning
+								behind the tragedy. Its&#39;s just sad.
+							</p>
+							<p>
+								Richards&#39;s last words are &ldquo;I don&#39;t
+								think two people could have been happier than
+								we&#39;ve been.&rdquo; These are familiar words
+								because they were also the last words of
+								Virginia&#39;s letter to Leonard, but I really
+								struggle to find meaning in the artistic
+								decisions that were made around Richard&#39;s
+								death. What is the message here? That
+								award-winning authors die by suicide? That
+								Clarissa and Richard should have eloped while
+								they had the chance so that maybe he
+								wouldn&#39;t have caught HIV and lost his mind?
+							</p>
+							<p>
+								Of course, the party doesn&#39;t go ahead after
+								all (how can it?). What was, in the novel, a
+								neat conclusion to the story simply does not
+								occur in &lsquo;The Hours&rsquo;, and the
+								audience are almost left with more questions
+								than they had halfway through the film. We find
+								out that Laura&#39;s son, Richie from 1951 also
+								happens to be Clarissa&#39;s friend, Richard
+								from 2001; that Laura, after struggling with her
+								own mental health and social expectations,
+								eventually left both of her children, and had
+								been planning to do so since the day of
+								Richard&#39;s father&#39;s birthday in 1951. We
+								feel her guilt and shame and empathise with her
+								pain, but the meaning of this confession is hard
+								to gauge. We never learn how Richard felt about
+								his mother leaving, nor see the two of them
+								reunite in his adulthood. There&#39;s no clear
+								message, no resolution, no party to make it all
+								worth it. It seems that if there’s a lesson to
+								be learned from the film, it&#39;s about
+								&ldquo;window boxes and hedges; about wives
+								walking pugs; about clock striking the hours in
+								empty rooms&rdquo; (Cunningham 1998).
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div
+				class="row"
+				id="conclusion"
+				style="background-image: url('img-9.jpg')"
+			>
+				<div class="col page">
+					<div class="card">
+						<div class="card-body">
+							<h1>Conclusion</h1>
+							<p>
+								To sum up, part of what makes
+								<i>Mrs Dalloway</i> as magical as I believe it
+								to be is the nuances it contains; what&#39;s
+								written between the lines. The content of these
+								hidden meanings is generally darker than the way
+								they&#39;re conveyed; for example, Clarissa
+								<i>really</i> cares about her parties (because
+								she struggles to find other things to care
+								about); the timing of Septimus&#39; death is
+								unfortunate (because he&#39;s terrified of the
+								doctors whose job is to &lsquo;help&rsquo; him).
+								But I felt these nuances were absent in the
+								film, unless I wasn&#39;t looking hard enough.
+								This could be attributed to the different
+								formats, since it&#39;s surely harder to write
+								between the lines of a film than a novel. But
+								the portrayal of Virginia Woolf, world-renowned
+								literary icon, as defective, childish, and
+								unable to look after herself? I don&#39;t
+								attribute that to format. I attribute it to the
+								stigma that surrounds mental illness and the
+								producer&#39;s money-thirsty attempt to attract
+								viewer attention.
+							</p>
+							<p>
+								We&#39;ve seen how similarities and differences
+								between the two texts affected the way we
+								percieved them, such as how the hidden message
+								behind Septimus&#39; death caused me to be
+								disappointed by the lack of a message in
+								Richard&#39;s death in &lsquo;The Hours&rsquo;.
+								Similarly, we&#39;ve seen how contrasts in the
+								plots affect the way we perceived them, like how
+								the party never happens in &lsquo;The
+								Hours&rsquo; while in
+								<i>Mrs Dalloway</i> it&#39;s an important part
+								of the novel; namely, the resolution. My overall
+								interpretation of the extent to which each
+								amplify/diminish Woolf&#39;s exploration of
+								happiness is that <i>Mrs Dalloway</i> amplifies
+								it, by empowering Woolf to express her authentic
+								self through her artwork, while &lsquo;The
+								Hours&rsquo; diminishes it, by altering her
+								legacy through its inaccurate portrayal of the
+								author, and representing her story in a way that
+								isn&#39;t as meaningful as her own.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- End of interactive essay -->
+		</div>
+		<h1
+			style="font-size: xx-large; margin: 20px 20px 20px 20px"
+			id="warning-message"
+		>
+			This content is not available for screens in portrait mode. Please
+			turn your phone to landscape :).
+		</h1>
+	</body>
+</html>

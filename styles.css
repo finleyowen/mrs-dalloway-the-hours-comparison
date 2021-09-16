@@ -1,0 +1,97 @@
+div#title {
+	background-color: black;
+	color: white;
+}
+
+div#intro {
+	background-color: cadetblue;
+}
+
+div#part-1,
+div#part-3 {
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+
+div#social-life {
+	background-image: linear-gradient(black, darkslateblue);
+	color: white;
+}
+div#other-works {
+	background-image: linear-gradient(darkslateblue, black);
+	color: white;
+}
+
+div#the-darkness {
+	background-image: linear-gradient(black, darkred);
+	color: white;
+}
+
+div#the-hours {
+	background-image: linear-gradient(black, darkgreen);
+	color: white;
+}
+
+div#the-hours-2 {
+	background-image: linear-gradient(darkgreen, white);
+}
+
+div.page {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 30px;
+	text-align: left;
+}
+
+div.heading-page {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 30px;
+}
+
+div.img-container {
+	height: 100vh;
+	padding: 0px !important;
+	margin: 0px !important;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+img {
+	max-width: 50vw;
+	max-height: 100vh;
+	padding: 0px !important;
+	margin: 0px !important;
+}
+
+p,
+i,
+b,
+li {
+	font-size: 1vw;
+}
+
+/* We want most i tages to be the same size, but not those that are inside headers. */
+h1 i {
+	font-size: inherit;
+}
+
+@media only screen and (orientation: portrait) {
+	#wrapper {
+		display: none;
+	}
+	#warning-message {
+		display: block;
+	}
+}
+@media only screen and (orientation: landscape) {
+	#warning-message {
+		display: none;
+	}
+}
